@@ -1,0 +1,18 @@
+CM 
+CE
+SY height=52
+SY length=20.98
+SY wireSeg=15
+SY PT1=(0,length/2,height)
+SY PT2=(0,-length/2,height)
+SY wireX1=0, wireX2=0
+SY wireY1=length/2, wireY2=-1*length/2
+SY wireZ1=height, wireZ2=height
+GW	1	wireSeg	wireX1	wireY1	wireZ1	wireX2	wireY2	wireZ2	14
+GE	0
+LD	5	1	0	wireSeg	58000000
+GN	-1
+EK
+EX	0	1	50%	0	1	0	0
+FR	0	0	0	0	7.15	0
+EN

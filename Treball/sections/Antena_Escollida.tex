@@ -1,0 +1,32 @@
+\chapter{Antena Escollida}
+
+Vistes les anàlisis anteriors, a l'hora d'escollir entre una antena monopol i una antena dipol per a la seva construcció, s'ha escollit la segona opció, és a dir, la \textbf{construcció d'una antena monopol}.
+
+S'ha escollit aquesta antena doncs s’ha cregut més pràctica i amb més potenciala degut principalment al fet que permet una possible futura expansió cap a una antena Yagi per tal de fer-la més directiva. 
+
+Per altra banda, una antena monopol tindrà una impedància d’entrada de 36 $\si{\ohm}$ en el millor dels casos. Per tant la desadaptació amb un cable de 75 $\si{\ohm}$ serà força gran. Inclús amb un cable de 50 serà superior a la que tindria una antena dipol amb 73 $\si{\ohm}$ d’impedància amb un cable de 75 $\si{\ohm}$.
+
+Així doncs, per una freqüència central de treball de 122 MHz:
+
+\begin{equation}
+\notag
+  \lambda=\frac{c}{f}=\frac{3\cdot10^8}{122\cdot10^6}= 2.459\,\mathrm{m}
+\end{equation}
+
+Buscant que l'impedància d'entrada no tingui cap part complexa es troba la longitud d'antena L. 
+
+\begin{equation}
+\notag
+  L=\frac{\lambda}{2}-3\%= 1.156\,\mathrm{m}
+\end{equation}
+
+L'antena dipol que serà doncs construida es mostra a la figura \ref{LAntena}.
+\begin{figure}[H]
+\includegraphics[width=1\textwidth]{./images/LAntena}
+\caption{Longitud de l'antena dipol a construir}
+\label{LAntena}
+\end{figure}
+
+\input{./sections/Resistencia_Parasita}
+\input{./sections/Construccio}
+\input{./sections/Mesures}

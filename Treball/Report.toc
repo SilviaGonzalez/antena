@@ -1,0 +1,13 @@
+\contentsline {chapter}{Llista de figures}{ii}{section*.1}
+\contentsline {chapter}{\numberline {1}An\IeC {\`a}lisi electromagn\IeC {\`e}tic}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Antena dipol en $\lambda /2$}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}En espai lliure}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}A certa dist\IeC {\`a}ncia d\IeC {\textquoteright }un pla conductor perfecte}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Sobre un cilindre met\IeC {\`a}l\IeC {\textperiodcentered }lic}{3}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Antena monopol en $\lambda /4$}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Sobre un pla conductor perfecte}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Sobre un cilindre met\IeC {\`a}l\IeC {\textperiodcentered }lic}{6}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}Antena Escollida}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Resist\IeC {\`e}ncia aerodin\IeC {\`a}mica par\IeC {\`a}sita}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Construcci\IeC {\'o} de l'Antena}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Mesures}{8}{section.2.3}

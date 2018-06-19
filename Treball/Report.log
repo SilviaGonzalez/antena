@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.10)  9 JUN 2018 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.10)  19 JUN 2018 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2047,7 +2047,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-<./images/1.Dypole_Free/1_vertical.png, id=116, 393.47pt x 439.6425pt>
+<./images/1.Dypole_Free/1_vertical.png, id=120, 393.47pt x 439.6425pt>
 File: ./images/1.Dypole_Free/1_vertical.png Graphic file (type png)
 
 <use ./images/1.Dypole_Free/1_vertical.png>
@@ -2055,7 +2055,7 @@ Package pdftex.def Info: ./images/1.Dypole_Free/1_vertical.png used on input li
 ne 17.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/1.Dypole_Free/1_horizontal.png, id=117, 393.47pt x 439.6425pt>
+<./images/1.Dypole_Free/1_horizontal.png, id=121, 393.47pt x 439.6425pt>
 File: ./images/1.Dypole_Free/1_horizontal.png Graphic file (type png)
 
 <use ./images/1.Dypole_Free/1_horizontal.png>
@@ -2067,7 +2067,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 28.
 
-<./images/1.Dypole_Free/1_3d.png, id=118, 700.6175pt x 623.32875pt>
+<./images/1.Dypole_Free/1_3d.png, id=122, 700.6175pt x 623.32875pt>
 File: ./images/1.Dypole_Free/1_3d.png Graphic file (type png)
 
 <use ./images/1.Dypole_Free/1_3d.png>
@@ -2075,7 +2075,7 @@ Package pdftex.def Info: ./images/1.Dypole_Free/1_3d.png used on input line 35.
 
 (pdftex.def)             Requested size: 226.19888pt x 201.23836pt.
 
-<./images/1.Dypole_Free/1_menu.png, id=119, 390.45876pt x 569.12625pt>
+<./images/1.Dypole_Free/1_menu.png, id=123, 390.45876pt x 569.12625pt>
 File: ./images/1.Dypole_Free/1_menu.png Graphic file (type png)
 
 <use ./images/1.Dypole_Free/1_menu.png>
@@ -2108,7 +2108,7 @@ l.49
 
  <./images/1.Dypole_Free/1_vertical.png> <./images/1.Dypole_Free/1_horizontal.p
 ng>]
-<./images/2.Dypole_overPlane/2_vertical.png, id=130, 393.47pt x 439.6425pt>
+<./images/2.Dypole_overPlane/2_vertical.png, id=134, 393.47pt x 439.6425pt>
 File: ./images/2.Dypole_overPlane/2_vertical.png Graphic file (type png)
 
 <use ./images/2.Dypole_overPlane/2_vertical.png>
@@ -2116,7 +2116,7 @@ Package pdftex.def Info: ./images/2.Dypole_overPlane/2_vertical.png used on inp
 ut line 63.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/2.Dypole_overPlane/2_horizontal.png, id=131, 393.47pt x 439.6425pt>
+<./images/2.Dypole_overPlane/2_horizontal.png, id=135, 393.47pt x 439.6425pt>
 File: ./images/2.Dypole_overPlane/2_horizontal.png Graphic file (type png)
 
 <use ./images/2.Dypole_overPlane/2_horizontal.png>
@@ -2124,7 +2124,7 @@ Package pdftex.def Info: ./images/2.Dypole_overPlane/2_horizontal.png used on i
 nput line 69.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/2.Dypole_overPlane/2_3d.png, id=132, 700.6175pt x 623.32875pt>
+<./images/2.Dypole_overPlane/2_3d.png, id=136, 700.6175pt x 623.32875pt>
 File: ./images/2.Dypole_overPlane/2_3d.png Graphic file (type png)
 
 <use ./images/2.Dypole_overPlane/2_3d.png>
@@ -2132,7 +2132,7 @@ Package pdftex.def Info: ./images/2.Dypole_overPlane/2_3d.png used on input lin
 e 81.
 (pdftex.def)             Requested size: 226.19888pt x 201.23836pt.
 
-<./images/2.Dypole_overPlane/menu.png, id=133, 390.45876pt x 569.12625pt>
+<./images/2.Dypole_overPlane/menu.png, id=137, 390.45876pt x 569.12625pt>
 File: ./images/2.Dypole_overPlane/menu.png Graphic file (type png)
 
 <use ./images/2.Dypole_overPlane/menu.png>
@@ -2156,7 +2156,7 @@ LaTeX Font Warning: Font shape `OMS/lmss/bx/n' undefined
 (Font)              using `OMS/lmss/m/n' instead
 (Font)              for symbol `textperiodcentered' on input line 100.
 
-<./images/3.Dypole_cylinder/3_vertical.png, id=142, 393.47pt x 439.6425pt>
+<./images/3.Dypole_cylinder/3_vertical.png, id=146, 393.47pt x 439.6425pt>
 File: ./images/3.Dypole_cylinder/3_vertical.png Graphic file (type png)
 
 <use ./images/3.Dypole_cylinder/3_vertical.png>
@@ -2164,7 +2164,7 @@ Package pdftex.def Info: ./images/3.Dypole_cylinder/3_vertical.png used on inpu
 t line 109.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/3.Dypole_cylinder/3_horizontal.png, id=143, 393.47pt x 439.6425pt>
+<./images/3.Dypole_cylinder/3_horizontal.png, id=147, 393.47pt x 439.6425pt>
 File: ./images/3.Dypole_cylinder/3_horizontal.png Graphic file (type png)
 
 <use ./images/3.Dypole_cylinder/3_horizontal.png>
@@ -2172,7 +2172,7 @@ Package pdftex.def Info: ./images/3.Dypole_cylinder/3_horizontal.png used on in
 put line 115.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/3.Dypole_cylinder/3_3d.png, id=144, 700.6175pt x 623.32875pt>
+<./images/3.Dypole_cylinder/3_3d.png, id=148, 700.6175pt x 623.32875pt>
 File: ./images/3.Dypole_cylinder/3_3d.png Graphic file (type png)
 
 <use ./images/3.Dypole_cylinder/3_3d.png>
@@ -2180,7 +2180,7 @@ Package pdftex.def Info: ./images/3.Dypole_cylinder/3_3d.png used on input line
  127.
 (pdftex.def)             Requested size: 226.19888pt x 201.23836pt.
 
-<./images/3.Dypole_cylinder/3_menu.png, id=145, 390.45876pt x 569.12625pt>
+<./images/3.Dypole_cylinder/3_menu.png, id=149, 390.45876pt x 569.12625pt>
 File: ./images/3.Dypole_cylinder/3_menu.png Graphic file (type png)
 
 <use ./images/3.Dypole_cylinder/3_menu.png>
@@ -2213,7 +2213,7 @@ Package pdftex.def Info: ./doc_config/image.png used on input line 150.
 (pdftex.def)             Requested size: 131.3497pt x 35.0pt.
  [4 <./images/3.Dypole_cylinder/3_3d.png> <./images/3.Dypole_cylinder/3_menu.pn
 g>]
-<./images/4.Monopole_plane/vertical.png, id=162, 393.47pt x 439.6425pt>
+<./images/4.Monopole_plane/vertical.png, id=166, 393.47pt x 439.6425pt>
 File: ./images/4.Monopole_plane/vertical.png Graphic file (type png)
 
 <use ./images/4.Monopole_plane/vertical.png>
@@ -2221,7 +2221,7 @@ Package pdftex.def Info: ./images/4.Monopole_plane/vertical.png used on input l
 ine 160.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/4.Monopole_plane/horizontal.png, id=163, 393.47pt x 439.6425pt>
+<./images/4.Monopole_plane/horizontal.png, id=167, 393.47pt x 439.6425pt>
 File: ./images/4.Monopole_plane/horizontal.png Graphic file (type png)
 
 <use ./images/4.Monopole_plane/horizontal.png>
@@ -2229,7 +2229,7 @@ Package pdftex.def Info: ./images/4.Monopole_plane/horizontal.png used on input
  line 166.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/4.Monopole_plane/3d.png, id=164, 700.6175pt x 623.32875pt>
+<./images/4.Monopole_plane/3d.png, id=168, 700.6175pt x 623.32875pt>
 File: ./images/4.Monopole_plane/3d.png Graphic file (type png)
 
 <use ./images/4.Monopole_plane/3d.png>
@@ -2237,7 +2237,7 @@ Package pdftex.def Info: ./images/4.Monopole_plane/3d.png used on input line 17
 8.
 (pdftex.def)             Requested size: 226.19888pt x 201.23836pt.
 
-<./images/4.Monopole_plane/menu.png, id=165, 390.45876pt x 569.12625pt>
+<./images/4.Monopole_plane/menu.png, id=169, 390.45876pt x 569.12625pt>
 File: ./images/4.Monopole_plane/menu.png Graphic file (type png)
 
 <use ./images/4.Monopole_plane/menu.png>
@@ -2251,7 +2251,7 @@ Package pdftex.def Info: ./doc_config/image.png used on input line 196.
  [5 <./images/4.Monopole_plane/vertical.png> <./images/4.Monopole_plane/horizon
 tal.png> <./images/4.Monopole_plane/3d.png> <./images/4.Monopole_plane/menu.png
 >]
-<./images/5.Monopole_cylinder/vertical.png, id=175, 393.47pt x 439.6425pt>
+<./images/5.Monopole_cylinder/vertical.png, id=179, 393.47pt x 439.6425pt>
 File: ./images/5.Monopole_cylinder/vertical.png Graphic file (type png)
 
 <use ./images/5.Monopole_cylinder/vertical.png>
@@ -2259,7 +2259,7 @@ Package pdftex.def Info: ./images/5.Monopole_cylinder/vertical.png used on inpu
 t line 206.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/5.Monopole_cylinder/horizontal.png, id=176, 393.47pt x 439.6425pt>
+<./images/5.Monopole_cylinder/horizontal.png, id=180, 393.47pt x 439.6425pt>
 File: ./images/5.Monopole_cylinder/horizontal.png Graphic file (type png)
 
 <use ./images/5.Monopole_cylinder/horizontal.png>
@@ -2267,7 +2267,7 @@ Package pdftex.def Info: ./images/5.Monopole_cylinder/horizontal.png used on in
 put line 212.
 (pdftex.def)             Requested size: 136.57635pt x 152.60257pt.
 
-<./images/5.Monopole_cylinder/3d.png, id=177, 700.6175pt x 623.32875pt>
+<./images/5.Monopole_cylinder/3d.png, id=181, 700.6175pt x 623.32875pt>
 File: ./images/5.Monopole_cylinder/3d.png Graphic file (type png)
 
 <use ./images/5.Monopole_cylinder/3d.png>
@@ -2275,7 +2275,7 @@ Package pdftex.def Info: ./images/5.Monopole_cylinder/3d.png used on input line
  224.
 (pdftex.def)             Requested size: 226.19888pt x 201.23836pt.
 
-<./images/5.Monopole_cylinder/menu.png, id=178, 390.45876pt x 569.12625pt>
+<./images/5.Monopole_cylinder/menu.png, id=182, 390.45876pt x 569.12625pt>
 File: ./images/5.Monopole_cylinder/menu.png Graphic file (type png)
 
 <use ./images/5.Monopole_cylinder/menu.png>
@@ -2292,7 +2292,7 @@ Package pdftex.def Info: ./doc_config/image.png used on input line 1.
 orizontal.png> <./images/5.Monopole_cylinder/3d.png> <./images/5.Monopole_cylin
 der/menu.png>]
 Cap\IeC {\'\i }tol 2.
-<./images/LAntena.png, id=188, 885.3075pt x 254.9525pt>
+<./images/LAntena.png, id=193, 885.3075pt x 254.9525pt>
 File: ./images/LAntena.png Graphic file (type png)
 
 <use ./images/LAntena.png>
@@ -2323,8 +2323,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.29 
-     ] (./sections/Resistencia_Parasita.tex) (./sections/Construccio.tex)
-(./sections/Mesures.tex))
+     ] (./sections/Resistencia_Parasita.tex) (./sections/Construccio.tex
+File: ./doc_config/image.png Graphic file (type png)
+
+<use ./doc_config/image.png>
+Package pdftex.def Info: ./doc_config/image.png used on input line 24.
+(pdftex.def)             Requested size: 131.3497pt x 35.0pt.
+ [8 <./images/LAntena.png>]
+<./images/Conexions.jpg, id=205, 4175.6pt x 3131.7pt>
+File: ./images/Conexions.jpg Graphic file (type jpg)
+
+<use ./images/Conexions.jpg>
+Package pdftex.def Info: ./images/Conexions.jpg used on input line 27.
+(pdftex.def)             Requested size: 213.39568pt x 160.03474pt.
+
+<./images/Antena_final.jpeg, id=207, 3653.65pt x 1927.2pt>
+File: ./images/Antena_final.jpeg Graphic file (type jpg)
+
+<use ./images/Antena_final.jpeg>
+Package pdftex.def Info: ./images/Antena_final.jpeg used on input line 41.
+(pdftex.def)             Requested size: 341.43437pt x 180.08643pt.
+) (./sections/Mesures.tex))
 No file Report.bbl.
 
 AED: lastpage setting LastPage
@@ -2332,7 +2351,7 @@ File: ./doc_config/image.png Graphic file (type png)
 <use ./doc_config/image.png>
 Package pdftex.def Info: ./doc_config/image.png used on input line 69.
 (pdftex.def)             Requested size: 131.3497pt x 35.0pt.
- [8 <./images/LAntena.png>]
+ [9 <./images/Conexions.jpg> <./images/Antena_final.jpeg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./Report.aux)
@@ -2350,13 +2369,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 29859 strings out of 492995
- 555921 string characters out of 6132704
- 638243 words of memory out of 5000000
- 32853 multiletter control sequences out of 15000+600000
+ 29884 strings out of 492995
+ 556353 string characters out of 6132704
+ 638355 words of memory out of 5000000
+ 32869 multiletter control sequences out of 15000+600000
  657647 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,15n,84p,10480b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,84p,10480b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
 cal/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-d
@@ -2372,10 +2391,10 @@ texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/201
 /public/lm/lmss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
 /lmss9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Report.pdf (12 pages, 1659166 bytes).
+Output written on Report.pdf (13 pages, 5211743 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

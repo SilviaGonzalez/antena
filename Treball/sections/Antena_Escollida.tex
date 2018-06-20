@@ -1,10 +1,14 @@
 \chapter{Antena Escollida}
 
-Vistes les anàlisis anteriors, a l'hora d'escollir entre una antena monopol i una antena dipol per a la seva construcció, s'ha escollit la segona opció, és a dir, la \textbf{construcció d'una antena monopol}.
+Vists els anàlisis anteriors, a l'hora d'escollir entre una antena monopol i una dipol per a la seva construcció, s'ha escollit la segona opció, és a dir, la \textbf{construcció d'una antena dipol $\lambda/2$}.
 
-S'ha escollit aquesta antena doncs s’ha cregut més pràctica i amb més potenciala degut principalment al fet que permet una possible futura expansió cap a una antena Yagi per tal de fer-la més directiva. 
+S'ha triat aquesta configuració doncs s'ha cregut més pràctica i amb més potencial per dos motius principals:
+\begin{itemize}
+\item És més senzill aconseguir una polarització purament horitzontal amb una antena dipol que no pas amb una dipol.
+\item En cas de voler continuar el treball més endavant, una antena dipol ofereix una base molt bona per ampliar i construir una antena \textit{Yagi}.
+\end{itemize}
 
-Per altra banda, una antena monopol tindrà una impedància d’entrada de 36 $\si{\ohm}$ en el millor dels casos. Per tant la desadaptació amb un cable de 75 $\si{\ohm}$ serà força gran. Inclús amb un cable de 50 serà superior a la que tindria una antena dipol amb 73 $\si{\ohm}$ d’impedància amb un cable de 75 $\si{\ohm}$.
+Per altra banda, una antena monopol tindrà una impedància d’entrada de 36 $\si{\ohm}$ en el millor dels casos. Per tant la desadaptació amb un cable de 75 $\si{\ohm}$ serà força gran. Inclús amb un cable de 50 serà superior a la que tindria una antena dipol amb 73 $\si{\ohm}$ d'impedància amb un cable de 75 $\si{\ohm}$.
 
 Així doncs, per una freqüència central de treball de 122 MHz:
 
@@ -13,14 +17,14 @@ Així doncs, per una freqüència central de treball de 122 MHz:
   \lambda=\frac{c}{f}=\frac{3\cdot10^8}{122\cdot10^6}= 2.459\,\mathrm{m}
 \end{equation}
 
-Buscant que l'impedància d'entrada no tingui cap part complexa es troba la longitud d'antena L. 
+Buscant que la impedància d'entrada no tingui cap part complexa es troba la longitud d'antena L seguint el criteri de reducció del 3\% explicat a classe. 
 
 \begin{equation}
 \notag
   L=\frac{\lambda}{2}-3\%= 1.156\,\mathrm{m}
 \end{equation}
 
-L'antena dipol que serà doncs construida es mostra a la figura \ref{LAntena}.
+L'antena dipol que serà doncs construïda es mostra a la figura \ref{LAntena}.
 \begin{figure}[H]
 \includegraphics[width=1\textwidth]{./images/LAntena}
 \caption{Longitud de l'antena dipol a construir}

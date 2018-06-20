@@ -1,2 +1,102 @@
 \section{Mesures}
 
+Al laboratori es desponia dels següents aparells:
+\begin{itemize}
+\item \textbf{Network Analyzer}: HP 8752A
+\item \textbf{Spectrum Analyzer}: Anritsu MS2601B
+\item Adaptdors de cables. S'ha emprat el de tipus IEC a tipus BNC.
+\end{itemize}
+
+Així mateix, es va comptar amb el suport del professor de l'assignatura, el Dr. Antoni Barlabé, a qui agraïm la seva disposició.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+	\centering
+	\includegraphics[width=0.9\textwidth]{./images/Mesures/01setUp.jpg}
+	\caption{}
+	\label{setup1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+	\centering
+	\includegraphics[width=0.9\textwidth]{./images/Mesures/0setUp.jpg}
+	\caption{}
+	\label{setup2}
+\end{subfigure}
+\caption{Context del laboratori}
+\label{setup}
+\end{figure}
+
+\subsection{Mesura del coeficient de reflexió $\Gamma$}
+Amb l'analitzador de xarxes vectorial connectat al conjunt antena-connectors-cable-balun, primerament es troba el coeficient de reflexió a l'entrada d'aquest. És recorda:
+\begin{equation}
+\Gamma = \frac{E_{reflectida}}{E_{emesa}} =\frac{E^-}{E^+}
+\end{equation}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{./images/Mesures/1reflx_broadband.jpg}
+	\caption{|$\Gamma$| pel sistema connector-cable-balun-antena. 0.3 - 300 MHz }
+	\label{1rflx}
+\end{figure}
+S'observa en la figura \ref{1rflx} que hi ha molts pics inversos. En aquests pics es on l'antena té un coeficient de reflexió baix, que és el que interessa. El primer d'aquests pics es troba sobre els 122MHz i és per al que hem dissenyat l'antena. La resta apareixen per efectes d'harmònics i altres fenòmens.
+A continuació, a la figura \ref{2rflx} s'amplia a la zona que interessa estudiar.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{./images/Mesures/2relfx_narrowband.jpg}
+	\caption{|$\Gamma$| pel sistema connector-cable-balun-antena. 100 - 300 MHz }
+	\label{2rflx}
+\end{figure}
+D'aquí s'extreu que l'antena és òptima a 121.08MHz on presenta el següent resultat:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lc}
+		\toprule[3pt]
+		\textbf{f}&\textbf{$\Gamma$}\\
+		\midrule[1pt]
+		121.08 & -20dB \\
+		\bottomrule[2pt]
+	\end{tabular}
+	\caption{|$\Gamma$|}
+	\label{gamma}
+\end{table}
+És considera que quan $\mid\Gamma\mid < -10dB$ l'antena està ben adaptada.
+\subsection{Mesura del SWR}
+També amb l'analitzador de xarxes, s'obté la mesura del SWR.
+\begin{equation}
+SWR =\frac{1+\mid\Gamma\mid}{1-\mid\Gamma\mid}
+\end{equation}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{./images/Mesures/3swr.jpg}
+	\caption{\textbf{SWR} pel sistema connector-cable-balun-antena. 100 - 200 MHz}
+	\label{swr}
+\end{figure}
+S'obtè a la freqüència central un \textbf{SWR de 1.15}. Sempre i quan el SWR estigui per sota de 2, es considera que l'antena està ben adaptada. Sabent això s'ha mesurat el rang de freqüències operatives. 
+
+Finalment s'ha vist que l'antena opera bé entre els \textbf{117MHz i els 127MHz}. Gairebé emplena tota la banda aeronàutica. Cal comentar que al tractar-se d'una antena dipol era d'esperar que el seu ample de banda sigui més limitat.
+\subsection{Carta de Smith}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{./images/Mesures/4smith.jpg}
+	\caption{Carta de Smith}
+	\label{smith}
+\end{figure}
+La carta de Smith també ha sigut obtinguda amb l'analitzador d'espectres configurat a 75 $\Omega$. Com es pot observar, el cursor està ben a prop del centre del cercle, ratificant així el fet que l'antena està ben adaptada.
+La carta ens proporciona informació extra. Resulta que la impedància d'entrada en $\Omega$ del conjunt és:
+\begin{equation}
+Z = 62.3 + 17.8e-9	
+\end{equation}
+Observi's com la part imaginaria és gairebé nul·la, i com la real està molt a prop dels 73$\Omega$ teòrics calculats analíticament. S'ha de tindre en compte també que els 73 son únicament pel dipol, mentre que l'anterior és la de tot el sistema.
+\subsection{Altres}
+Finalment és va connectar l'antena a l'analitzador d'espectres. Amb un segon dipol situat a l'altra punta del laboratori es va emetre un to pur a la freqüència de 121MHz.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{./images/Mesures/5recepcio.jpg}
+	\caption{Comportament en recepció}
+	\label{RX}
+\end{figure}
+Com es pot observar a la figura \ref{RX}, la senyal rebuda té un molt \textbf{bon SNR}. A més, la potència rebuda, segons va comentar el professor, era força alta comparativament. Si es disposés d'una càmera anecoica, amb aquest mateix experiment es podria determinar el diagrama de radiació de l'antena i comparar-ho amb el teòric calculat del 4NEC2.
+
+A continuació, es va sintonitzar la radio des de el mateix analitzador d'espectres i aquesta es va rebre amb bona qualitat tot i estar fora del rang "òptim". 
+
+Finalment, durant un segon experiment fet de forma autònoma pels integrants del grup, va ser possible escoltar a un avió aterrant a l'aeroport de Sabadell. Aquest es va fer connectant l'antena a una radio del tipus SDR que a la vegada estava connectada a l'ordinador.

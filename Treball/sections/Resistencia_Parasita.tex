@@ -1,7 +1,7 @@
 \section{Resistència aerodinàmica paràsita}
 Abans de procedir a la construcció de l'antena, es fa un anàlisis aerodinàmic amb \textit{CFD} per tal de determinar el drag paràsit que genera aquesta antena en l'aeronau escollida en condicions de vol.
 
-Les condicions de vol escollides són\footnote{les variables termodinàmiques s'han obtingut amb l'alçada i emprant el model atmosfèric ISA.}:
+Les condicions de vol escollides per al disseny són\footnote{les variables termodinàmiques s'han obtingut amb l'alçada i emprant el model atmosfèric ISA.}:
 \begin{itemize}
 \item v = 102.9 m/s
 \item h = 2400 m
@@ -19,8 +19,8 @@ Finalment, amb \textit{\textbf{OpenFoam}} s'han realitzat una sèrie de simulaci
 		\toprule[3pt]
 		\textbf{Cas}&\textbf{$C_d$}\\
 		\midrule[1pt]
-		Cas de disseny & 0.29 \\
-		Cas d'aeronau comercial & 0.14 \\
+		Cas de disseny & 0.006 \\
+		Cas d'aeronau comercial & 0.005 \\
 		\bottomrule[2pt]
 	\end{tabular}
 	\caption{Drag paràsit del dipol}
